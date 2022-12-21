@@ -13,6 +13,7 @@
 		AF7128582953544F0052A187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7128562953544F0052A187 /* Main.storyboard */; };
 		AF71285A295354530052A187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF712859295354530052A187 /* Assets.xcassets */; };
 		AF71285D295354530052A187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF71285B295354530052A187 /* LaunchScreen.storyboard */; };
+		AF712865295354FC0052A187 /* LoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF712864295354FC0052A187 /* LoggerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF712859295354530052A187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF71285C295354530052A187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF71285E295354530052A187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF712864295354FC0052A187 /* LoggerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		AF71284F2953544F0052A187 /* LoggerManager */ = {
 			isa = PBXGroup;
 			children = (
+				AF712864295354FC0052A187 /* LoggerManager.swift */,
 				AF7128502953544F0052A187 /* AppDelegate.swift */,
 				AF7128522953544F0052A187 /* SceneDelegate.swift */,
 				AF7128542953544F0052A187 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF7128552953544F0052A187 /* ViewController.swift in Sources */,
+				AF712865295354FC0052A187 /* LoggerManager.swift in Sources */,
 				AF7128512953544F0052A187 /* AppDelegate.swift in Sources */,
 				AF7128532953544F0052A187 /* SceneDelegate.swift in Sources */,
 			);
